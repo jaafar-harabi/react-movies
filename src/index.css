@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #092635;
+
+}
+
+.dark{
+  background-color: #092635;
+  font-family: 'Poppins', sans-serif;
+  
+  color: white;
+
+}
+
+.overview{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.title{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+@media only screen and (max-width:400px) {
+  .card-responsive{
+    width: 300px !important;
+  }
+  .img-responsive{
+    width: 200px;
+  }
+  
+}
+
+@media only screen and (max-width:310px) {
+  .card-responsive{
+    width: 280px !important;
+  }
+  .img-responsive{
+    width: 200px !important;
+  }
+  .input-responsive{
+    width: 100px !important;
+  }
+  .btn-responsive{
+    width: 80px !important;
+    font-size: 10px !important;
+  }
+  
+}
+@media only screen and (max-width:281px) {
+  .card-responsive{
+    width: 230px !important;
+  }
+  .img-responsive{
+    width: 200px;
+  }
+  
+}
